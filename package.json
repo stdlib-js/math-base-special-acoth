@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-base-special-acoth",
-  "version": "0.0.0",
+  "version": "0.0.6",
   "description": "Compute the inverse hyperbolic cotangent.",
   "license": "Apache-2.0",
   "author": {
