@@ -53,7 +53,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.acoth;
+})();
 })();
 </script>
 ```
@@ -98,6 +100,7 @@ v = acoth( 0.5 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-acoth@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var x = linspace( 1.0, 5.0, 100 );
 
@@ -106,6 +109,7 @@ for ( i = 0; i < x.length; i++ ) {
     console.log( acoth( x[ i ] ) );
 }
 
+})();
 })();
 </script>
 </body>
@@ -206,13 +210,13 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/math/base/special/acosh]: https://github.com/stdlib-js/math-base-special-acosh/tree/umd
+[@stdlib/math/base/special/acosh]: https://github.com/stdlib-js/math-base-special-acosh/tree/umd/tree/umd
 
-[@stdlib/math/base/special/acot]: https://github.com/stdlib-js/math-base-special-acot/tree/umd
+[@stdlib/math/base/special/acot]: https://github.com/stdlib-js/math-base-special-acot/tree/umd/tree/umd
 
-[@stdlib/math/base/special/asinh]: https://github.com/stdlib-js/math-base-special-asinh/tree/umd
+[@stdlib/math/base/special/asinh]: https://github.com/stdlib-js/math-base-special-asinh/tree/umd/tree/umd
 
-[@stdlib/math/base/special/atanh]: https://github.com/stdlib-js/math-base-special-atanh/tree/umd
+[@stdlib/math/base/special/atanh]: https://github.com/stdlib-js/math-base-special-atanh/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
