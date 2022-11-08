@@ -24,30 +24,14 @@ limitations under the License.
 
 > Compute the [inverse hyperbolic cotangent][hyperbolic-arctangent] of a number.
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/math-base-special-acoth
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var acoth = require( '@stdlib/math-base-special-acoth' );
+import acoth from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-acoth@esm/index.mjs';
 ```
 
 #### acoth( x )
@@ -82,9 +66,14 @@ v = acoth( 0.5 );
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var linspace = require( '@stdlib/array-base-linspace' );
-var acoth = require( '@stdlib/math-base-special-acoth' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="module">
+
+import linspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@esm/index.mjs';
+import acoth from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-acoth@esm/index.mjs';
 
 var x = linspace( 1.0, 5.0, 100 );
 
@@ -92,6 +81,10 @@ var i;
 for ( i = 0; i < x.length; i++ ) {
     console.log( acoth( x[ i ] ) );
 }
+
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -124,7 +117,7 @@ for ( i = 0; i < x.length; i++ ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -188,13 +181,13 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/math/base/special/acosh]: https://github.com/stdlib-js/math-base-special-acosh
+[@stdlib/math/base/special/acosh]: https://github.com/stdlib-js/math-base-special-acosh/tree/esm
 
-[@stdlib/math/base/special/acot]: https://github.com/stdlib-js/math-base-special-acot
+[@stdlib/math/base/special/acot]: https://github.com/stdlib-js/math-base-special-acot/tree/esm
 
-[@stdlib/math/base/special/asinh]: https://github.com/stdlib-js/math-base-special-asinh
+[@stdlib/math/base/special/asinh]: https://github.com/stdlib-js/math-base-special-asinh/tree/esm
 
-[@stdlib/math/base/special/atanh]: https://github.com/stdlib-js/math-base-special-atanh
+[@stdlib/math/base/special/atanh]: https://github.com/stdlib-js/math-base-special-atanh/tree/esm
 
 <!-- </related-links> -->
 
