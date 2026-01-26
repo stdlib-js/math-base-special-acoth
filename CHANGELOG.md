@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-01-01)
+## Unreleased (2026-01-26)
 
 <section class="reverts">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`b5e65f7`](https://github.com/stdlib-js/stdlib/commit/b5e65f77cc4d0d175f408c2c44aaca987a76354d) - **bench:** add opts and use string interpolation [(#9889)](https://github.com/stdlib-js/stdlib/pull/9889) _(by Harsh Yadav)_
 -   [`a55e19f`](https://github.com/stdlib-js/stdlib/commit/a55e19f3343b4a34486a5c109805bbc52e4dbb16) - **test:** replace t.true with t.strictEqual so tests actually check main export _(by Philipp Burckhardt)_
 -   [`9fc1333`](https://github.com/stdlib-js/stdlib/commit/9fc1333e47f74f4bad37c621522a971678667d75) - **chore:** add structured package data for `math/base/special/acoth` [(#7935)](https://github.com/stdlib-js/stdlib/pull/7935) _(by Nakul Krishnakumar, Athan Reines)_
 -   [`630ddb7`](https://github.com/stdlib-js/stdlib/commit/630ddb777824b5f6e501fda6dadf4ce41dccb964) - **test:** replace equal with strictEqual _(by Karan Anand)_
@@ -46,9 +47,10 @@
 
 ### Contributors
 
-A total of 4 people contributed to this release. Thank you to the following contributors:
+A total of 5 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Harsh Yadav
 -   Karan Anand
 -   Nakul Krishnakumar
 -   Philipp Burckhardt
