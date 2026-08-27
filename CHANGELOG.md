@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-07-30)
+## Unreleased (2026-08-27)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`e446bd6`](https://github.com/stdlib-js/stdlib/commit/e446bd626d92ff7cd36f40c9980f928cee4f1692) - **docs:** add equations [(#14686)](https://github.com/stdlib-js/stdlib/pull/14686) _(by Karan Anand)_
 -   [`c90a54a`](https://github.com/stdlib-js/stdlib/commit/c90a54ab17c4cbbbf0c78e2e5bea120f90debd14) - **chore:** clean-up [(#13752)](https://github.com/stdlib-js/stdlib/pull/13752) _(by Philipp Burckhardt, Athan Reines)_
 -   [`f38253d`](https://github.com/stdlib-js/stdlib/commit/f38253d42ab73d077e4daf6e39d66f16f40d1b2d) - **test:** migrate `math/base/special/acoth` to ULP-based testing [(#13745)](https://github.com/stdlib-js/stdlib/pull/13745) _(by Ujjwal Verma)_
 -   [`2604e21`](https://github.com/stdlib-js/stdlib/commit/2604e213f90904e2dbf64a18afdd68cfa5881719) - **docs:** fix C example variable declaration [(#11124)](https://github.com/stdlib-js/stdlib/pull/11124) _(by anee3)_
@@ -26,9 +27,10 @@
 
 ### Contributors
 
-A total of 4 people contributed to this release. Thank you to the following contributors:
+A total of 5 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Karan Anand
 -   Philipp Burckhardt
 -   Ujjwal Verma
 -   anee3
