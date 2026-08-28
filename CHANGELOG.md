@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-27)
+## Unreleased (2026-08-28)
 
 <section class="commits">
 
@@ -12,6 +12,8 @@
 
 <details>
 
+-   [`e67a5aa`](https://github.com/stdlib-js/stdlib/commit/e67a5aad659d8f6623e4ab8ac94687a8586ea83a) - **docs:** update Markdown equation elements _(by stdlib-bot)_
+-   [`85f4853`](https://github.com/stdlib-js/stdlib/commit/85f48534ef6908bbcd982d48f1c5fbea3fb7aafd) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
 -   [`e446bd6`](https://github.com/stdlib-js/stdlib/commit/e446bd626d92ff7cd36f40c9980f928cee4f1692) - **docs:** add equations [(#14686)](https://github.com/stdlib-js/stdlib/pull/14686) _(by Karan Anand)_
 -   [`c90a54a`](https://github.com/stdlib-js/stdlib/commit/c90a54ab17c4cbbbf0c78e2e5bea120f90debd14) - **chore:** clean-up [(#13752)](https://github.com/stdlib-js/stdlib/pull/13752) _(by Philipp Burckhardt, Athan Reines)_
 -   [`f38253d`](https://github.com/stdlib-js/stdlib/commit/f38253d42ab73d077e4daf6e39d66f16f40d1b2d) - **test:** migrate `math/base/special/acoth` to ULP-based testing [(#13745)](https://github.com/stdlib-js/stdlib/pull/13745) _(by Ujjwal Verma)_
